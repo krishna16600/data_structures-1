@@ -19,7 +19,8 @@ int main()
 	int size=0;
 	printf("enter the size of the array");
 	scanf("%d",&size);
-	printf("enter the elements of the array");
+	//binary search requires sorted array as input
+	printf("enter the elements of the array in ascending order");
 	int arr[size];
 	for(int i=0;i<size;i++)
 	{
